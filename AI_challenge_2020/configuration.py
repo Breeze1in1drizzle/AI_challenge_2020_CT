@@ -4,3 +4,5 @@ abs_path = os.path.abspath(__file__)
 ROOT_PATH = abs_path.replace('\\', '/')[:-16]
 
 DATA_PATH = ROOT_PATH + "datasets/"
+
+MODEL_PATH = ROOT_PATH + "model/"
